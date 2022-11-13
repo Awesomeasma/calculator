@@ -1,0 +1,74 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+  padding: 0;
+  margin: 0;
+  /* background-image: url("https://img.freepik.com/free-vector/pastel-ombre-background-pink-purple_53876-120750.jpg?w=2000"); */
+
+  background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm373batch13-086-kpxyz0id.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=ce7dc4d0821bed1419497b4863335308");
+
+ 
+
+  background-size: cover;
+
+}
+ 
+.wrapper {
+    width: 400px;
+    margin-left: 500px;
+    margin-top: 60px;
+    background-color: black;
+    
+    
+}
+.calc-button-row{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-bottom: 0.56%;
+}
+.screen{
+    color:white;
+    background-color: black;
+    text-align:right ;
+    padding-top:1.2rem;
+    padding-bottom:1.2rem;
+    padding-right: 0.3rem;
+    padding-left:0.1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+.calc-button{
+    background-color: #d8d9db;
+    color:black;
+    font-size: 40px;
+    border:none;
+    flex-basis: 24.5%;
+    height:100px;
+  
+}
+.calc-button:hover{
+    background-color: #ebebeb;
+}
+.calc-button:active{
+    background-color: #bbecbe
+}
+.double{
+    flex-basis: 49.7%;
+    padding-top:2rem;
+    padding-bottom: 2rem;
+}
+.triple{
+    flex-basis: 74.8%;
+}
+.calc-button:last-child{
+    background-color: #df974c;
+    color:white;
+}
+.calc-button:last-child:hover{
+    background-color: #dfb07e;
+}
